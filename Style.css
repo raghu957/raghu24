@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.showCase
+{
+    margin: 0;
+    padding: 0;
+color: rgb(156, 190, 188);
+height: 100vh;
+display: flex;
+
+align-items: center;
+justify-content: center;
+/* border: 3px solid red; */
+margin-bottom: 0px;
+
+
+}
+.videoContentTexts{
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    top: 450px;
+  
+}
+.videoContiner {
+    margin: 0;
+    padding: 0;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    /* border: solid violet; */
+}
+
+.videoContiner video{
+    
+    position:absolute;
+   top: 1%;
+   left: 2%; 
+   transform: translate(-50px,-50px);
+   /* border: 3px solid yellow; */
+   width: 100%;
+   height: 100%;
+   height: max-content;
+   /* right: 30px; */ 
+   /* margin: 0;
+   padding: 0; */
+  
+
+}
+
+.videoContentTexts .ref1{
+    opacity: 0.6;
+
+   font-size: 90px;
+   font-family: fantasy;
+   position: relative;
+    bottom: 660px;
+ /* opacity: 0.5; */
+ /* animation: scroll-text 10s linear infinite; */
+
+
+}
+
+
+
+
+
+.videoContentHeading h1::first-letter{
+ 
+color: darkslategrey; 
+ }
+
+.videoContentHeading a{
+text-align: center;
+opacity: 0.6;
+
+
+
+}
+ 
+.videoContentTexts a{
+    font-size: 50px;
+background-color:rgb(14, 108, 108) ;
+color: white;
+padding: 10px;
+text-decoration: none;
+font-size: 90px;
+display: inline-block;
+margin-right: 10px;
+justify-self: center;
+margin-bottom: 0px;
+
+     }
+
+     .videoContentTexts a:hover{
+        opacity: 0.4;
+     }
+
+     .videoContentTexts a1{
+        /* position: relative;
+        top: 300px; */
+     }
+
+.midSection{
+    background-color: rgb(198, 198, 198);
+}
+
+
+.Heading{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0px;
+
+      /* filter: grayscale(100%);
+    transition: filter 0.9s ease; */
+}
+.Heading h1::first-letter{
+    color: rgb(28, 1, 1);
+    font-family: fantasy;
+
+}
+
+.para1 sullasImage{
+display: flex;
+z-index: 1;
+}
+
+
+
+
+
+
+.Heading {
+
+    /* filter: grayscale(100%);
+    transition: filter 0.9s ease; */
+}
+/* 
+.hover-grayscale:hover {
+    filter: grayscale(0%);
+} */
+#id_2{
+    display: flex;
+    
+}
+
+
+.Sullas_Image1{
+    overflow: hidden; 
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    border-color: solid wheat;
+}
+.enlarge-on-hover:hover {
+    transform: scale(1.2);  /* Scale the image to 120% of its original size on hover */
+}
+
+.para1 h1{
+font-size: large;
+
+}
+
+.para1 I1{
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        transition: transform 0.3s ease;
+    }
+    
+    
+}
+.image-container img:hover {
+    transform: scale(1.2); /* Adjust the scale value as needed */
+}
+
+.Ama{
+  width: 89999px;
+  color: darkred;
+  opacity: 0.7;
+}
+
+
+#Heading2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+      /* filter: grayscale(100%);
+    transition: filter 0.9s ease; */
+}
+.Heading2_1 ::first-letter{
+    color: yellowgreen;
+}
+
+.Button1{
+    position: relative;
+    left: 45%;
+   
+}
+/* @keyframes scroll-text {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+} */
+#MainFooter{
+
+    display: flex;
+    align-items: center;
+    font-size: larger;
+}
+
+.MainFooter h1{
+
+    font-size: larger;
+}
+.Footer2 h1{
+    display: flex;
+    align-content: center;
+}

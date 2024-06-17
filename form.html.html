@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1 style="display: flex;text-align: center;font-size: 94px;background-color: blueviolet;color: white;justify-content: center;">Registration Form</h1>
+    <div class="myForm">
+    <form>
+      <label>First Name:</label>  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;
+      <input type="Text"
+      placeholder="Name"required><br><br>
+
+
+      <label>Last Name:</label>  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+      <input type="Text" placeholder="LastName"required><br><br>
+      <label>Fathers Name:</label>  
+      <input type="Text"
+      placeholder="FatherName"required><br><br>  
+      
+      <label>Mothers Name:</label>  
+      <input type="Text"
+      placeholder="Mother's Name" required><br><br>   
+     
+
+
+      <label>Gender:</label>  &nbsp;
+      <input type="radio"><label>Male</label>
+      <input type="radio"><label>Female</label>&nbsp;
+      <input type="radio"><label>Rather Not Say</label>
+    <br><br>
+
+      <label>AGE:</label> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 
+      <input type="number"
+      placeholder="AGE" required><br><br>  
+
+      <label>EMAIL:</label>  
+      <input type="text"
+      placeholder="EMAIL" required><br><br>  
+
+
+      <label>City:</label>  
+           
+      <select>
+        <option>Chennai</option>
+        <option>Mumbai</option>
+        <option>Kolkata</option>
+        <option>Delhi</option>
+        <option>Banglore</option>
+        <option>Hydrabad</option>
+        <option>GuruGram</option>
+        <option>Noida</option>
+        </select>
+        <br><br><br>
+
+        <label class="mt_3">Adress:</label>  
+        <textarea row="6"></textarea>
+        <br><br>
+       &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <button  onclick="showAlert()">Submit</button>
+       <script>
+        function showAlert() {
+          alert('Thank you for submitting the Form!');
+        }
+        </script>
+
+
+
+    </form>
+    </div>
+</body>
+</html>
